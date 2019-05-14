@@ -77,7 +77,8 @@
                 </div>
 
                 <div class="links">
-                    
+                    <a href="{{action('BukuController@create')}}">Tambah Buku</a>
+                    <a href="{{action('BukuController@index')}}">Index</a>
                     
                 </div>
             </div>
